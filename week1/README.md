@@ -1,11 +1,13 @@
-## Topics covered in week 1 so far:
+## Topics covered in week 1:
 - Docker
 - Docker Compose
 - PostgreSQL
 - pgAdmin
 - pgcli
+- Terraform
+- Google Cloud Plataform
 
-### Commands learned in week 1 so far:
+### Commands learned in week 1:
 
 - dataset: https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2021-01.parquet
 
@@ -92,3 +94,15 @@ docker run -it \
         --table_name=yellow_taxi_data \
         --url="https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2021-01.parquet"
 ```
+
+- Terraform
+    - terraform init: here we are basically initializing default parameters, like specifying the provider, the backend state file that will manage all the resources to be created, etc
+
+    - terraform plan: here, we will pass to the state file which resources we want to have and their parameters
+
+    - terraform apply: the state file will have all the plan to be executed. Then, running this command, it will create all the resources for us
+        - if we decide to create more resources during development stage, we basically need to add more resources to the main file, run 
+        “terraform plan” and “terraform apply” to apply the changes
+
+        
+    - terraform destroy: if we want to remove all the resources created
