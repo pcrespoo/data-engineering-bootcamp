@@ -95,6 +95,11 @@ docker run -it \
         --url="https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2021-01.parquet"
 ```
 
+- Docker Compose:
+```
+docker-compose up
+```
+
 - Terraform
     - terraform init: here we are basically initializing default parameters, like specifying the provider, the backend state file that will manage all the resources to be created, etc
 
