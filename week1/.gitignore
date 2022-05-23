@@ -2,3 +2,7 @@ terraform/.terraform/
 ny_taxi_postgres_data/
 *.csv
 *.parquet
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/.terraform.lock.hcl
+
