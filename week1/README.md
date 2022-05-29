@@ -7,6 +7,9 @@
 - Terraform
 - Google Cloud Plataform
 
+### Notes:
+Notion page: https://www.notion.so/pcrespoo/Week-1-adea5a2dbf0f44e49749238957f99754
+
 ### Commands learned in week 1:
 
 - dataset: https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2021-01.parquet

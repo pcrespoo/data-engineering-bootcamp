@@ -7,4 +7,4 @@ This repo contains all the material developed during the 9-week bootcamp provide
 
 ### Topics
 - Week 1: Docker, Docker Compose, GCP and Terraform
-
+- Week 2: Airflow, Data Ingestion to Goocle Cloud Storage
