@@ -1,0 +1,9 @@
+my-profile:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: dtc-boot-7639
+      dataset: dtc-pcrespoo
+      location: southamerica-east1
