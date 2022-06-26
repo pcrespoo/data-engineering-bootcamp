@@ -9,3 +9,4 @@ This repo contains all the material developed during the 9-week bootcamp provide
 - Week 1: Docker, Docker Compose, GCP and Terraform
 - Week 2: Airflow, Data Ingestion to Google Cloud Storage
 - Week 3: BigQuery, Partitioned and Clustered tables, Airflow, how to move files in Google Cloud Storage
+- Week 4: Dbt and Google Data Studio
